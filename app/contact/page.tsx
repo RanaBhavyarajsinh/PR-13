@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="bg-white/95 shadow-2xl rounded-3xl p-14 border border-purple-100">
           
           <h2 className="text-3xl font-bold text-center text-purple-700 mb-12">
-            Let's Connect 🤝
+            Let&apos;s Connect 🤝
           </h2>
 
           {/* Contact Info */}
