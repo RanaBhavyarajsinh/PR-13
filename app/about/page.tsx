@@ -9,7 +9,7 @@ export default function About() {
         </h1>
 
         <p className="text-gray-700 text-lg leading-relaxed">
-          I{"'"}m a Computer Engineering student passionate about web development and problem solving.
+          I&apos;m a Computer Engineering student passionate about web development and problem solving.
           I enjoy building full stack applications using modern technologies like Next.js,
           React, and Node.js.
         </p>
