@@ -6,8 +6,9 @@ const HeavyComponent = dynamic(() => import('../components/HeavyComponent'), {
 
 export default function Home() {
   return (
-    <main>
-      <h1>Hello World</h1>
+    <main style={{ padding: '2rem' }}>
+      <h1>Welcome to My Full-Stack App</h1>
+      <p>This is a Next.js application with optimized bundle size and environment management.</p>
       <HeavyComponent />
     </main>
   )
