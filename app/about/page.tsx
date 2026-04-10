@@ -1,17 +1,27 @@
 export default function About() {
   return (
-    <main className="min-h-screen bg-gray-50 py-12">
-      <div className="container mx-auto px-4 max-w-2xl">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">About Me</h1>
-        <div className="bg-white p-8 rounded-lg shadow-md">
-          <p className="text-gray-600 mb-4">
-            Hi! I am a developer passionate about building full-stack applications with modern technologies.
-          </p>
-          <p className="text-gray-600">
-            This app demonstrates Next.js with TypeScript, optimized bundle size, and environment management.
-          </p>
-        </div>
+    <main className="min-h-screen bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-center px-6 py-20">
+
+      <div className="bg-white shadow-2xl rounded-3xl p-12 max-w-3xl text-center">
+
+        <h1 className="text-5xl font-extrabold text-purple-700 mb-8">
+          About Me
+        </h1>
+
+        <p className="text-gray-700 text-lg leading-relaxed">
+          I&apos;m a Computer Engineering student passionate about web development and problem solving.
+          I enjoy building full stack applications using modern technologies like Next.js,
+          React, and Node.js.
+        </p>
+
+        <p className="text-gray-600 mt-6 leading-relaxed">
+          My goal is to continuously improve my technical skills and gain practical experience
+          by working on real-world projects. I like learning new technologies and creating
+          user-friendly applications that solve meaningful problems.
+        </p>
+
       </div>
+
     </main>
   )
 }
